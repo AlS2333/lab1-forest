@@ -1,0 +1,73 @@
+[gd_scene load_steps=10 format=3 uid="uid://t3rxqq7ihd8a"]
+
+[ext_resource type="Texture2D" uid="uid://cwqyj1b4orgi2" path="res://assets/images/sky.png" id="1_rx5p4"]
+[ext_resource type="Texture2D" uid="uid://bnw7r371hvero" path="res://assets/images/sky_cloud.png" id="2_wnc6l"]
+[ext_resource type="Texture2D" uid="uid://nxmdnq0u5y48" path="res://assets/images/mountain2.png" id="3_g1vdb"]
+[ext_resource type="Texture2D" uid="uid://c0kv6qgrf6k1a" path="res://assets/images/pine1.png" id="4_p1i3m"]
+[ext_resource type="Texture2D" uid="uid://bswqwtjo8twx" path="res://assets/images/pine2.png" id="5_br6tm"]
+[ext_resource type="Texture2D" uid="uid://cxiwtvqc65wsm" path="res://assets/images/tree.png" id="6_m6gge"]
+[ext_resource type="Texture2D" uid="uid://b0jhjv5y0hc6s" path="res://assets/images/tree_dead.png" id="7_aiex0"]
+[ext_resource type="Texture2D" uid="uid://d050qiubn50my" path="res://assets/images/ground_2.png" id="8_sg5gf"]
+[ext_resource type="Texture2D" uid="uid://culsybii80qu5" path="res://assets/images/ground_3.png" id="9_ugag4"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sky" type="Sprite2D" parent="."]
+position = Vector2(1611, 307)
+scale = Vector2(5.09593, 3.50711)
+texture = ExtResource("1_rx5p4")
+
+[node name="SkyCloud" type="Sprite2D" parent="."]
+position = Vector2(921, 240)
+scale = Vector2(2.06105, 1.69431)
+texture = ExtResource("2_wnc6l")
+
+[node name="SkyCloud2" type="Sprite2D" parent="."]
+position = Vector2(2523, 285)
+scale = Vector2(1.7936, 1.609)
+texture = ExtResource("2_wnc6l")
+
+[node name="Mountain2" type="Sprite2D" parent="."]
+position = Vector2(1583, 669)
+scale = Vector2(5.18314, 4.09055)
+texture = ExtResource("3_g1vdb")
+
+[node name="Pine1" type="Sprite2D" parent="."]
+position = Vector2(1594, 981)
+scale = Vector2(5.02326, 4.64865)
+texture = ExtResource("4_p1i3m")
+
+[node name="Pine2" type="Sprite2D" parent="."]
+position = Vector2(1465, 1190)
+scale = Vector2(5.13663, 4.41143)
+texture = ExtResource("5_br6tm")
+
+[node name="Tree" type="Sprite2D" parent="."]
+position = Vector2(2688, 968)
+scale = Vector2(7.7, 6.66071)
+texture = ExtResource("6_m6gge")
+
+[node name="TreeDead" type="Sprite2D" parent="."]
+position = Vector2(1961, 1166)
+scale = Vector2(8.025, 5.08929)
+texture = ExtResource("7_aiex0")
+
+[node name="Tree2" type="Sprite2D" parent="."]
+position = Vector2(350, 918)
+scale = Vector2(7.05, 6.66071)
+texture = ExtResource("6_m6gge")
+
+[node name="Ground2" type="Sprite2D" parent="."]
+position = Vector2(2673, 1477)
+scale = Vector2(22.625, 20)
+texture = ExtResource("8_sg5gf")
+
+[node name="Ground3" type="Sprite2D" parent="."]
+position = Vector2(343, 1447)
+scale = Vector2(24.125, 23.75)
+texture = ExtResource("9_ugag4")
+
+[node name="Ground4" type="Sprite2D" parent="."]
+position = Vector2(1952, 1495)
+scale = Vector2(29, 8.5)
+texture = ExtResource("8_sg5gf")
